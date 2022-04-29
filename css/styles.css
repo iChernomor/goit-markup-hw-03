@@ -321,7 +321,7 @@ margin-right: 0;
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-list :nth-child(3n) {
+.team-list:nth-last-child() {
   margin-right: 0;
 }
 /* Footer */
