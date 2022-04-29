@@ -74,7 +74,7 @@ img {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid green;
+  /* outline: 1px solid green; */
   margin: 0 auto;
 }
 .section {
@@ -82,7 +82,7 @@ img {
   padding-bottom: 94px;
 }
 .header-pages {
-  outline: 2px solid #2196f3;
+  /* outline: 2px solid #2196f3; */
 }
 /* Лого */
 .logo-blue {
@@ -298,19 +298,24 @@ margin-right: 0;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-bottom: 30px;
   /* margin-bottom: 94px; */
 }
+
 .team {
-    background-color: aqua;
   display: flex;
   justify-content: space-between;
   /* flex-wrap: wrap; */
 }
 
 .team-list {
-    background-color: aqua;
   width: 270px;
   margin-right: 30px;
+  background: #ffffff;
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list :nth-child(3n) {
@@ -366,12 +371,20 @@ margin-right: 0;
   /* identical to box height, or 162% */
   text-align: center;
   cursor: pointer;
+  margin-right: 30px;
+}
+
+.filter-flex {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 .menu {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  margin-right: 30px;
 }
 .card {
   display: flex;
@@ -412,4 +425,11 @@ margin-right: 0;
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.88;
+}
+.card-border {
+  min-width: 322px;
+  padding: 24px;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
 }
