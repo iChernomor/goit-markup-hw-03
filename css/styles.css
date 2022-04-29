@@ -330,6 +330,10 @@ margin-right: 0;
 .nopadtop {
   padding-top: 0px;
 }
+.padtopbot {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 .footer-address {
   color: var(--white-color-text);
