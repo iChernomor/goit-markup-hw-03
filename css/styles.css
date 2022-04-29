@@ -82,6 +82,7 @@ img {
   padding-bottom: 94px;
 }
 .header-pages {
+    border-bottom: 1px solid #ECECEC;
   /* outline: 2px solid #2196f3; */
 }
 /* Лого */
@@ -182,7 +183,7 @@ margin-right: 0;
 .site-header {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ECECEC;
+
 }
 .led {
   color: var(--accent-color); /* подсветка текущей страницы */
@@ -439,7 +440,6 @@ margin-right: 0;
   line-height: 1.88;
 }
 .card-border {
-  min-width: 322px;
   padding: 24px;
   border-right: 1px solid #eee;
   border-bottom: 1px solid #eee;
