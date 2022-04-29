@@ -327,12 +327,10 @@ margin-right: 0;
   font-style: normal;
 }
 
-.padtop {
-  padding-top: 60px;
+.nopadtop {
+  padding-top: 0px;
 }
-.padbot {
-  padding-bottom: 60px;
-}
+
 .footer-address {
   color: var(--white-color-text);
   font-size: 14px;
