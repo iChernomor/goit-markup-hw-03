@@ -380,7 +380,8 @@ margin-right: 0;
   /* identical to box height, or 162% */
   text-align: center;
   cursor: pointer;
-  margin-right: 30px;
+  margin-right: 8px;
+  padding: 6px 22px;
 }
 
 .filter-flex {
@@ -388,12 +389,13 @@ margin-right: 0;
   justify-content: center;
   margin-bottom: 50px;
 }
+
 .menu {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  margin-right: 30px;
+
 }
 .card {
   display: flex;
